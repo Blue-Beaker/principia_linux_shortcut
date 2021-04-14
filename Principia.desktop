@@ -1,0 +1,18 @@
+[Desktop Entry]
+Comment=Principia
+Exec=env WINEPREFIX="~/.wine" wine-stable "~/.wine/drive_c/Program Files (x86)/Principia/principia.exe" %u //Modify wineprefix and principia path if needed
+GenericName=Principia
+Icon=D8B5_principia.0
+MimeType=x-scheme-handler/principia
+Name=Principia
+Path=~/.wine/dosdevices/c:/Program Files (x86)/Principia/data-shared //Don't forget this path
+StartupNotify=true
+StartupWMClass=principia.exe
+Terminal=false
+TerminalOptions=
+Type=Application
+X-DBUS-ServiceName=
+X-DBUS-StartupType=
+X-KDE-SubstituteUID=false
+X-KDE-Username=
+Categories=Game;
